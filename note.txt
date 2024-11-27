@@ -1,0 +1,11 @@
+#login page
+#create a new user
+#create Navbar
+#searchbar for search courses
+#category of courses
+
+
+#home page
+#image slider
+#recommanded courses (show in cards)
+#Recommended to you based on ratings

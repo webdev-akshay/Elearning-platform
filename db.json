@@ -1,0 +1,51 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Angular Basics",
+      "description": "Learn the basics of Angular",
+      "price": 49.99,
+      "rating": 4.5,
+      "category": "Development",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "Web Design for Beginners",
+      "description": "Master web design principles",
+      "price": 29.99,
+      "rating": 4.7,
+      "category": "Design",
+      "image": "https://via.placeholder.com/150"
+    }
+  ],
+  "categories": [
+    { "id": 1, "name": "Development" },
+    { "id": 2, "name": "Design" },
+    { "id": 3, "name": "Business" }
+  ],
+  "users": [
+    { "id": 1, "name": "John Doe", "email": "john@example.com" }
+  ],
+    "sliderImages": [
+      {
+        "id": 1,
+        "title": "Learn Angular",
+        "description": "Master the Angular framework with our comprehensive tutorials.",
+        "imageUrl": "https://img.freepik.com/free-photo/friendly-girl-smiling-happily-tilting-head-showing-peace-victory-gesture-near-face-holding-ha_1258-136116.jpg?t=st=1732726113~exp=1732729713~hmac=280d62810b8e29a22b4aa108f6c93ddf2fd2f582245befdac37e09581ca37c3e&w=826"
+      },
+      {
+        "id": 2,
+        "title": "Web Design Basics",
+        "description": "Understand the fundamentals of web design and create stunning websites.",
+        "imageUrl": "https://img.freepik.com/free-photo/look-up-you-regret-it-portrait-confident-stylish-young-redhead-woman-s-wearing-knitted_1258-140039.jpg?t=st=1732726105~exp=1732729705~hmac=218fbb304ef8dfa6a9dc680573dc5285822725b9dc45b80d18b829886a4422a5&w=826"
+      },
+      {
+        "id": 3,
+        "title": "Become a Full Stack Developer",
+        "description": "Explore both frontend and backend technologies to become a full stack developer.",
+        "imageUrl":"https://img.freepik.com/free-photo/sad-gloomy-cute-ginger-girl-s-wearing-trendy-yellow-coat-holding-hand-waist-pouting-lookin_1258-136107.jpg?t=st=1732726096~exp=1732729696~hmac=93dccdaf27e0d8f8bb9c5111b70f0afc821dbdecdb116ce13290fbceb6f7a156&w=826"
+      }
+    ]
+
+}
