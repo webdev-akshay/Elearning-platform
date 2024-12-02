@@ -3,49 +3,256 @@
     {
       "id": 1,
       "title": "Angular Basics",
-      "description": "Learn the basics of Angular",
+      "description": "Learn the basics of Angular framework and build dynamic web apps.",
       "price": 49.99,
       "rating": 4.5,
       "category": "Development",
-      "image": "https://via.placeholder.com/150"
+      "createdBy": "John Doe",
+      "image": "https://via.placeholder.com/150?text=Angular+Basics"
     },
     {
       "id": 2,
-      "title": "Web Design for Beginners",
-      "description": "Master web design principles",
-      "price": 29.99,
+      "title": "Angular Basics",
+      "description": "Understand Angular components and directives.",
+      "price": 55.99,
+      "rating": 4.6,
+      "category": "Development",
+      "createdBy": "Jane Smith",
+      "image": "https://via.placeholder.com/150?text=Angular+Basics"
+    },
+    {
+      "id": 3,
+      "title": "Angular Basics",
+      "description": "Explore Angular routing and state management.",
+      "price": 42.99,
+      "rating": 4.3,
+      "category": "Development",
+      "createdBy": "Alice Johnson",
+      "image": "https://via.placeholder.com/150?text=Angular+Basics"
+    },
+    {
+      "id": 4,
+      "title": "Angular Basics",
+      "description": "Master Angular forms and data binding techniques.",
+      "price": 59.99,
+      "rating": 4.8,
+      "category": "Development",
+      "createdBy": "Robert Brown",
+      "image": "https://via.placeholder.com/150?text=Angular+Basics"
+    },
+    {
+      "id": 5,
+      "title": "Angular Basics",
+      "description": "Deep dive into Angular dependency injection.",
+      "price": 39.99,
+      "rating": 4.2,
+      "category": "Development",
+      "createdBy": "Emily Davis",
+      "image": "https://via.placeholder.com/150?text=Angular+Basics"
+    },
+    {
+      "id": 6,
+      "title": "React Fundamentals",
+      "description": "Learn the fundamentals of React and build reusable components.",
+      "price": 49.99,
       "rating": 4.7,
+      "category": "Development",
+      "createdBy": "Michael Wilson",
+      "image": "https://via.placeholder.com/150?text=React+Fundamentals"
+    },
+    {
+      "id": 7,
+      "title": "React Fundamentals",
+      "description": "Master state and props in React applications.",
+      "price": 54.99,
+      "rating": 4.8,
+      "category": "Development",
+      "createdBy": "Laura Martinez",
+      "image": "https://via.placeholder.com/150?text=React+Fundamentals"
+    },
+    {
+      "id": 8,
+      "title": "React Fundamentals",
+      "description": "Understand React hooks for efficient state management.",
+      "price": 47.99,
+      "rating": 4.6,
+      "category": "Development",
+      "createdBy": "Charles White",
+      "image": "https://via.placeholder.com/150?text=React+Fundamentals"
+    },
+    {
+      "id": 9,
+      "title": "React Fundamentals",
+      "description": "Explore advanced React concepts like context and portals.",
+      "price": 52.99,
+      "rating": 4.7,
+      "category": "Development",
+      "createdBy": "Sophia Harris",
+      "image": "https://via.placeholder.com/150?text=React+Fundamentals"
+    },
+    {
+      "id": 10,
+      "title": "React Fundamentals",
+      "description": "Build and deploy a React project from scratch.",
+      "price": 45.99,
+      "rating": 4.5,
+      "category": "Development",
+      "createdBy": "Daniel Clark",
+      "image": "https://via.placeholder.com/150?text=React+Fundamentals"
+    },
+    {
+      "id": 11,
+      "title": "Web Design Basics",
+      "description": "Master the principles of effective web design.",
+      "price": 29.99,
+      "rating": 4.3,
       "category": "Design",
-      "image": "https://via.placeholder.com/150"
+      "createdBy": "Natalie Lewis",
+      "image": "https://via.placeholder.com/150?text=Web+Design"
+    },
+    {
+      "id": 12,
+      "title": "Web Design Basics",
+      "description": "Learn to design responsive and modern web pages.",
+      "price": 34.99,
+      "rating": 4.5,
+      "category": "Design",
+      "createdBy": "Liam Walker",
+      "image": "https://via.placeholder.com/150?text=Web+Design"
+    },
+    {
+      "id": 13,
+      "title": "Web Design Basics",
+      "description": "Enhance your design skills with CSS and animations.",
+      "price": 39.99,
+      "rating": 4.6,
+      "category": "Design",
+      "createdBy": "Victoria Hall",
+      "image": "https://via.placeholder.com/150?text=Web+Design"
+    },
+    {
+      "id": 14,
+      "title": "Web Design Basics",
+      "description": "Understand user-centric design principles.",
+      "price": 25.99,
+      "rating": 4.2,
+      "category": "Design",
+      "createdBy": "Oliver Allen",
+      "image": "https://via.placeholder.com/150?text=Web+Design"
+    },
+    {
+      "id": 15,
+      "title": "Web Design Basics",
+      "description": "Create stunning UI mockups with design tools.",
+      "price": 28.99,
+      "rating": 4.4,
+      "category": "Design",
+      "createdBy": "Isabella Young",
+      "image": "https://via.placeholder.com/150?text=Web+Design"
+    },
+    {
+      "id": 16,
+      "title": "Python for Beginners",
+      "description": "Learn Python programming from scratch.",
+      "price": 39.99,
+      "rating": 4.6,
+      "category": "Programming",
+      "createdBy": "James King",
+      "image": "https://via.placeholder.com/150?text=Python+Basics"
+    },
+    {
+      "id": 17,
+      "title": "Python for Beginners",
+      "description": "Master Python data structures and functions.",
+      "price": 44.99,
+      "rating": 4.7,
+      "category": "Programming",
+      "createdBy": "Grace Scott",
+      "image": "https://via.placeholder.com/150?text=Python+Basics"
+    },
+    {
+      "id": 18,
+      "title": "Python for Beginners",
+      "description": "Build Python projects and solve coding challenges.",
+      "price": 37.99,
+      "rating": 4.4,
+      "category": "Programming",
+      "createdBy": "Lucas Adams",
+      "image": "https://via.placeholder.com/150?text=Python+Basics"
+    },
+    {
+      "id": 19,
+      "title": "Python for Beginners",
+      "description": "Learn Python libraries for data analysis.",
+      "price": 49.99,
+      "rating": 4.8,
+      "category": "Programming",
+      "createdBy": "Evelyn Carter",
+      "image": "https://via.placeholder.com/150?text=Python+Basics"
+    },
+    {
+      "id": 20,
+      "title": "Python for Beginners",
+      "description": "Understand Python debugging and best practices.",
+      "price": 41.99,
+      "rating": 4.5,
+      "category": "Programming",
+      "createdBy": "Henry Phillips",
+      "image": "https://via.placeholder.com/150?text=Python+Basics"
     }
   ],
   "categories": [
-    { "id": 1, "name": "Development" },
-    { "id": 2, "name": "Design" },
-    { "id": 3, "name": "Business" }
+    {
+      "id": 1,
+      "name": "Development"
+    },
+    {
+      "id": 2,
+      "name": "Design"
+    },
+    {
+      "id": 3,
+      "name": "Business"
+    }
   ],
   "users": [
-    { "id": 1, "name": "John Doe", "email": "john@example.com" }
+    {
+      "id": "18a0",
+      "name": "admin",
+      "password": "admin123",
+      "age": ""
+    },
+    {
+      "id": "907d",
+      "name": "admin",
+      "password": "admin123",
+      "age": ""
+    },
+    {
+      "id": "6529",
+      "name": "admin",
+      "password": "admin123",
+      "age": ""
+    }
   ],
-    "sliderImages": [
-      {
-        "id": 1,
-        "title": "Learn Angular",
-        "description": "Master the Angular framework with our comprehensive tutorials.",
-        "imageUrl": "https://img.freepik.com/free-photo/friendly-girl-smiling-happily-tilting-head-showing-peace-victory-gesture-near-face-holding-ha_1258-136116.jpg?t=st=1732726113~exp=1732729713~hmac=280d62810b8e29a22b4aa108f6c93ddf2fd2f582245befdac37e09581ca37c3e&w=826"
-      },
-      {
-        "id": 2,
-        "title": "Web Design Basics",
-        "description": "Understand the fundamentals of web design and create stunning websites.",
-        "imageUrl": "https://img.freepik.com/free-photo/look-up-you-regret-it-portrait-confident-stylish-young-redhead-woman-s-wearing-knitted_1258-140039.jpg?t=st=1732726105~exp=1732729705~hmac=218fbb304ef8dfa6a9dc680573dc5285822725b9dc45b80d18b829886a4422a5&w=826"
-      },
-      {
-        "id": 3,
-        "title": "Become a Full Stack Developer",
-        "description": "Explore both frontend and backend technologies to become a full stack developer.",
-        "imageUrl":"https://img.freepik.com/free-photo/sad-gloomy-cute-ginger-girl-s-wearing-trendy-yellow-coat-holding-hand-waist-pouting-lookin_1258-136107.jpg?t=st=1732726096~exp=1732729696~hmac=93dccdaf27e0d8f8bb9c5111b70f0afc821dbdecdb116ce13290fbceb6f7a156&w=826"
-      }
-    ]
-
+  "sliderImages": [
+    {
+      "id": 1,
+      "title": "Learn Angular",
+      "description": "Master the Angular framework with our comprehensive tutorials.",
+      "imageUrl": "https://img.freepik.com/free-photo/friendly-girl-smiling-happily-tilting-head-showing-peace-victory-gesture-near-face-holding-ha_1258-136116.jpg?t=st=1732726113~exp=1732729713~hmac=280d62810b8e29a22b4aa108f6c93ddf2fd2f582245befdac37e09581ca37c3e&w=826"
+    },
+    {
+      "id": 2,
+      "title": "Web Design Basics",
+      "description": "Understand the fundamentals of web design and create stunning websites.",
+      "imageUrl": "https://img.freepik.com/free-photo/look-up-you-regret-it-portrait-confident-stylish-young-redhead-woman-s-wearing-knitted_1258-140039.jpg?t=st=1732726105~exp=1732729705~hmac=218fbb304ef8dfa6a9dc680573dc5285822725b9dc45b80d18b829886a4422a5&w=826"
+    },
+    {
+      "id": 3,
+      "title": "Become a Full Stack Developer",
+      "description": "Explore both frontend and backend technologies to become a full stack developer.",
+      "imageUrl": "https://img.freepik.com/free-photo/sad-gloomy-cute-ginger-girl-s-wearing-trendy-yellow-coat-holding-hand-waist-pouting-lookin_1258-136107.jpg?t=st=1732726096~exp=1732729696~hmac=93dccdaf27e0d8f8bb9c5111b70f0afc821dbdecdb116ce13290fbceb6f7a156&w=826"
+    }
+  ]
 }

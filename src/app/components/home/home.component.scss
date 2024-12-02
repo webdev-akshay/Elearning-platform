@@ -14,3 +14,41 @@
     color: #FFF;
   }
 }
+/* Bootstrap Cards */
+.cutter{
+  clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
+  }
+  .card{
+  min-height: 100%;
+  img{
+    height: 180px;
+  }
+  }
+  i{
+  right:16px;
+  top:15px;
+  }
+.section_name{
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.card{
+  .title{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .rating{
+
+  }
+  .createdby,.category{
+    font-size: 12px;
+    color: #e8e8e8;
+  }
+  .price{
+
+  }
+  .description{
+
+  }
+}

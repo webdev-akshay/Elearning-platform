@@ -1,0 +1,77 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a href="#" class="navbar-brand">Brand<b>Name</b></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-start" id="navbarCollapse">
+      <div class="navbar-nav">
+          <a href="#" class="nav-item nav-link">Home</a>
+          <a href="#" class="nav-item nav-link">About</a>
+          <div class="nav-item dropdown">
+              <a href="#" class="nav-item nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+              <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item">Web Design</a></li>
+                  <li><a href="#" class="dropdown-item">Web Development</a></li>
+                  <li><a href="#" class="dropdown-item">Graphic Design</a></li>
+                  <li><a href="#" class="dropdown-item">Digital Marketing</a></li>
+              </ul>
+          </div>
+          <a href="#" class="nav-item nav-link active">Pricing</a>
+          <a href="#" class="nav-item nav-link">Blog</a>
+          <a href="#" class="nav-item nav-link">Contact</a>
+      </div>
+      <form class="d-flex">
+          <input type="search" id="search" class="form-control me-2" placeholder="Search here..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="material-icons">&#xE8B6;</i></button>
+      </form>
+      <div class="navbar-nav ms-auto action-buttons">
+          <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle me-4" data-bs-toggle="dropdown">Login</a>
+              <div class="dropdown-menu action-form">
+                  <form action="/examples/actions/confirmation.php" method="post">
+                      <p class="hint-text">Sign in with your social media account</p>
+                      <div class="form-group d-flex justify-content-between">
+                          <a href="#" class="btn btn-secondary me-1"><i class="fa fa-facebook"></i> Facebook</a>
+                          <a href="#" class="btn btn-secondary"><i class="fa fa-twitter"></i> Twitter</a>
+                      </div>
+                      <div class="or-separator text-center"><b>or</b></div>
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Username" required>
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Password" required>
+                      </div>
+                      <input type="submit" class="btn btn-primary btn-block" value="Login">
+                      <div class="text-center mt-2">
+                          <a href="#">Forgot Your password?</a>
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a href="#" class="btn btn-primary dropdown-toggle sign-up-btn" data-bs-toggle="dropdown">Sign up</a>
+              <a (click)="logout()" class="btn btn-primary dropdown-toggle sign-up-btn ms-2" data-bs-toggle="dropdown">Sign Out</a>
+              <div class="dropdown-menu action-form">
+                  <form action="/examples/actions/confirmation.php" method="post">
+                      <p class="hint-text">Fill in this form to create your account!</p>
+                      <div class="form-group">
+                          <input type="text" class="form-control" placeholder="Username" required>
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Password" required>
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" placeholder="Confirm Password" required>
+                      </div>
+                      <div class="form-group">
+                          <label class="form-check-label">
+                              <input type="checkbox" required> I accept the <a href="#">Terms & Conditions</a>
+                          </label>
+                      </div>
+                      <input type="submit" class="btn btn-primary btn-block" value="Sign up">
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</nav>

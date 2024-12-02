@@ -1,3 +1,4 @@
+<app-navbar></app-navbar>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item position-relative" [class.active]="i===0" *ngFor="let item of sliderImages; let i=index">
@@ -17,3 +18,31 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+<section class="top_rated_courses">
+<div class="container-fluid">
+  <h6 class="section_name mt-3 mb-3">Recommended to you based on top ratings</h6>
+
+<div class="row m-0">
+  <div class="col-md-3 mb-3" *ngFor="let data of courseList">
+    <div class="card shadow h-100">
+      <div class="cutter position-relative">
+        <img [src]="data.image" class="card-img-top" alt="loading">
+        <i class="far fa-heart fa-2x position-absolute text-danger" aria-hidden="true"></i>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-uppercase text-start title">{{data.title}}</h5>
+        <div class="d-flex justify-content-between">
+        <h5 class="card-title text-uppercase text-start createdby">{{data.createdby}}</h5>
+        <h5 class="card-title text-uppercase text-start category">{{data.category}}</h5>
+        </div>
+        <div class="d-flex justify-content-between">
+          <h6 class="card-title text-uppercase text-start price">${{data.price}}</h6>
+          <h6 class="card-title text-uppercase text-start rating">{{data.rating}}</h6>
+        </div>
+        <p class="card-text text-start description">{{data.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>

@@ -1,11 +1,16 @@
 #login page
-#create a new user
+  first open login page
+  forgot password
+#Registration page
+  create user
 #create Navbar
 #searchbar for search courses
 #category of courses
 
 
-#home page
+#home page#
 #image slider
-#recommanded courses (show in cards)
+#recommended courses (show in cards)
 #Recommended to you based on ratings
+#featured coursed in angular or specific course
+#Topics recommended for you
