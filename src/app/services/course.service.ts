@@ -12,6 +12,7 @@ export class CourseService {
 
   getcourses():Observable<any>{
     return this.http.get(`${this.apiUrl}/courses`)
-
   }
+
+
 }

@@ -35,29 +35,15 @@ body {
 .navbar a {
 	color: #888;
 	font-size: 15px;
+  font-weight: 600;
 }
-.search-box {
-	position: relative;
+#search{
+  height: 45px;
+  border-radius: 14px;
+
 }
-.search-box input {
-	padding-right: 35px;
-	border-color: #dfe3e8;
-	border-radius: 4px !important;
-	box-shadow: none
-}
-.search-box .input-group-text {
-	min-width: 35px;
-	border: none;
-	background: transparent;
-	position: absolute;
-	right: 0;
-	z-index: 9;
-	padding: 7px;
-	height: 100%;
-}
-.search-box i {
-	color: #a0a5b1;
-	font-size: 19px;
+.dropdown-toggle{
+  border-radius: 50%;
 }
 .navbar .sign-up-btn {
 	min-width: 110px;
@@ -182,4 +168,10 @@ body {
 	.navbar .input-group {
 		width: 100%;
 	}
+}
+.fa-heart:before,
+.fa-bell:before,
+.fa-cart-shopping:before{
+  font-size: 24px;
+  cursor: pointer;
 }
