@@ -201,20 +201,7 @@
       "image": "https://via.placeholder.com/150?text=Python+Basics"
     }
   ],
-  "categories": [
-    {
-      "id": 1,
-      "name": "Development"
-    },
-    {
-      "id": 2,
-      "name": "Design"
-    },
-    {
-      "id": 3,
-      "name": "Business"
-    }
-  ],
+
   "users": [
     {
       "id": "18a0",

@@ -3,37 +3,37 @@ import { AuthService } from '../../services/auth.service';
 import { RouterOutlet } from '@angular/router';
 import { CourseService } from '../../services/course.service';
 import { filter } from 'rxjs';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [RouterOutlet,CommonModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent implements OnInit{
-  categoryList:any=[]=[]
-  constructor(private auth:AuthService, private getCourseCategories:CourseService){}
+  categories: any[] = [];
+  openDropBox:boolean=false;
+  constructor(private auth:AuthService, private courseService: CourseService){}
   logout(){
     this.auth.logout()
   }
 
-  // getCourseCategoryList(){
-  //   this.getCourseCategories.getcourses((data:any)=>{
-  //     this.categoryList=data.filter((category:any)=>{
-  //       return category.category;
-  //     })
-  //   })
-  // }
-  getCourseCategoryList() {
-    this.getCourseCategories.getcourses((data: any) => {
-      this.categoryList = [...new Set(data.map((course: any) => course.category))];
-    });
+  openDropdown(){
+    this.openDropBox=!this.openDropBox
   }
+ getCategories(){
+  this.courseService.getcourses().subscribe((data)=>{
+    this.categories=data;
+  })
+ }
 
 
 
   ngOnInit(): void {
-    this.getCourseCategoryList();
+    this.getCategories()
   }
+
+
 }

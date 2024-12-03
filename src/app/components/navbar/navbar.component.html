@@ -5,11 +5,9 @@
   </button>
   <div class="collapse navbar-collapse justify-content-start" id="navbarCollapse">
           <div class="dropdown">
-          <a class="nav-item nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <a class="nav-item nav-link dropdown-toggle" (click)="openDropdown()"  type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Categories</a>
+            <ul *ngIf="openDropBox" class="dropdown-menu show" aria-labelledby="dropdownMenuButton1">
+              <li *ngFor="let categories of categories"><a class="dropdown-item" href="#">{{categories.category}}</a></li>
             </ul>
           </div>
           <input type="search" id="search" class="form-control me-2" placeholder="Search for anything" aria-label="Search">
@@ -31,3 +29,4 @@
       </div>
   </div>
 </nav>
+
